@@ -9,6 +9,7 @@ import UserProfile4195462Navigator from '../features/UserProfile4195462/navigato
 import Maps7195459Navigator from '../features/Maps7195459/navigator';
 import SplashScreen1195465Navigator from '../features/SplashScreen1195465navigator';
 //onboarding, login, terms, privacy, articles
+import Onboarding2195464Navigator from '../features/Onboarding2195464/navigator';
 
 /**
  * new navigators can be imported here
@@ -21,6 +22,7 @@ UserProfile4195462: { screen: UserProfile4195462Navigator },
 Maps7195459: { screen: Maps7195459Navigator },
     
 //onboarding, login, terms, privacy, articles
+Onboarding2195464: { screen: Onboarding2195464Navigator },
 SplashScreen1195465: { screen: SplashScreen1195465Navigator },
     
     /** new navigators can be added here */
