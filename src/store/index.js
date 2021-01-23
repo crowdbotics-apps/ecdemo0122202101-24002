@@ -2,14 +2,11 @@ import apiReducer from "./reducers";
 import customReducer from "./custom/reducers"
 import rootSaga from "./sagas";
 import customRootSaga from "./custom/sagas"
-import authRootSaga from '../features/LoginAndSignup3195463/auth/sagas';
-import authReducer from '../features/LoginAndSignup3195463/auth/reducers;
+import authRootSaga from "../features/LoginAndSignup3195463/auth/sagas";
+import authReducer from "../features/LoginAndSignup3195463/auth/reducers";
 import articlesReducer from "../features/<module_directory>/store/reducers";
 import articlesSagas from "../features/<module_directory>/store/sagas";
-import {
-  userRootSaga,
-  userReducer,
-} from "../features/UserProfile#######/store";
+import { userRootSaga, userReducer } from "../features/UserProfile4195462/store";
 import { combineReducers, createStore, applyMiddleware, compose } from "redux";
 import createSagaMiddleware from "redux-saga";
 
