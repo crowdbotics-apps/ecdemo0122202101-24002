@@ -14,6 +14,8 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "react-native-elements": "^2.3.2",
+    "react-native-datepicker": "^1.7.2",
     "react-native-parallax-scroll-view": "^0.21.3",
     "react-native-cardview": "^2.0.5",
     "react-native-webview": "^10.8.2",
