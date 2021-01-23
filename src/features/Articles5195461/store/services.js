@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const articlesAPI = axios.create({
-  baseURL: "https://app.botics.co/modules/articles",
+  baseURL: "https://ecdemo0122202101-24002.botics.co/modules/articles",
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json"
