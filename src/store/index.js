@@ -24,7 +24,7 @@ const store = createStore(
       apiReducer: apiReducer,
       customReducer: customReducer,
       authReducer: authReducer,
- +    articlesReducer: articlesReducer,
+      articlesReducer: articlesReducer,
       userReducer: userReducer,
   }),
   composeEnhancers(applyMiddleware(...middlewares))
@@ -33,7 +33,7 @@ const store = createStore(
 sagaMiddleware.run(rootSaga);
 sagaMiddleware.run(customRootSaga);
 sagaMiddleware.run(authRootSaga);
-+ sagaMiddleware.run(articlesSagas);
+sagaMiddleware.run(articlesSagas);
 sagaMiddleware.run(userRootSaga);
 
 export { store };
