@@ -79,7 +79,7 @@ export default class App extends React.Component {
                         resizeMode={"contain"}
                         style={styles.header}>
                         <TouchableOpacity
-                            onPress={() => { this.props.navigation.navigate('HomeScreen177788') }}>
+                            onPress={() => { this.props.navigation.navigate('Articles5195461') }}>
                             <Icon
                                 style={{
                                     width: 18,
