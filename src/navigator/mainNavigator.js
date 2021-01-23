@@ -11,7 +11,7 @@ import SplashScreen1195465Navigator from '../features/SplashScreen1195465navigat
 //onboarding, login, terms, privacy, articles
 import Onboarding2195464Navigator from '../features/Onboarding2195464/navigator';
 import LoginAndSignup3195463Navigator from '../features/LoginAndSignup3195463/navigator';
-
+import Articles from "../features/Articles5195461/navigator";
 
 
 /**
@@ -28,7 +28,7 @@ Maps7195459: { screen: Maps7195459Navigator },
 Onboarding2195464: { screen: Onboarding2195464Navigator },
 SplashScreen1195465: { screen: SplashScreen1195465Navigator },
 LoginAndSignup: { screen: LoginAndSignup#######Navigator },
-
+Articles: { screen: Articles },
  
     /** new navigators can be added here */
     SplashScreen: {
