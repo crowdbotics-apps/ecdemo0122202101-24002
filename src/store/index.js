@@ -6,7 +6,10 @@ import authRootSaga from '../features/LoginAndSignup3195463/auth/sagas';
 import authReducer from '../features/LoginAndSignup3195463/auth/reducers;
 import articlesReducer from "../features/<module_directory>/store/reducers";
 import articlesSagas from "../features/<module_directory>/store/sagas";
-
+import {
+  userRootSaga,
+  userReducer,
+} from "../features/UserProfile#######/store";
 import { combineReducers, createStore, applyMiddleware, compose } from "redux";
 import createSagaMiddleware from "redux-saga";
 
@@ -24,7 +27,8 @@ const store = createStore(
       apiReducer: apiReducer,
       customReducer: customReducer,
       authReducer: authReducer,
- +    articlesReducer: articlesReducer
+ +    articlesReducer: articlesReducer,
+      userReducer: userReducer,
   }),
   composeEnhancers(applyMiddleware(...middlewares))
 );
@@ -33,5 +37,6 @@ sagaMiddleware.run(rootSaga);
 sagaMiddleware.run(customRootSaga);
 sagaMiddleware.run(authRootSaga);
 + sagaMiddleware.run(articlesSagas);
+sagaMiddleware.run(userRootSaga);
 
 export { store };
