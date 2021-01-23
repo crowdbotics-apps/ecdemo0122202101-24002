@@ -13,8 +13,8 @@ import Onboarding2195464Navigator from '../features/Onboarding2195464/navigator'
 import LoginAndSignup3195463Navigator from '../features/LoginAndSignup3195463/navigator';
 import Articles5195461Navigator from "../features/Articles5195461/navigator";
 import TermsAndConditions8195458Navigator from '../features/TermsAndConditions8195458/navigator';
-import PrivacyPolicyScreen#######Navigator from '../features/PrivacyPolicyScreen#######/navigator';
-
+import PrivacyPolicyScreen9195457Navigator from '../features/PrivacyPolicyScreen#######/navigator';
+import UserProfile4195462Navigator from "../features/UserProfile4195462/navigator";
 
 /**
  * new navigators can be imported here
@@ -33,6 +33,8 @@ LoginAndSignup3195463: { screen: LoginAndSignup3195463Navigator },
 Articles5195461: { screen: Articles5195461Navigator },
 TermsAndConditions8195458: { screen: TermsAndConditions8195458Navigator
 PrivacyPolicyScreen9195457: { screen: PrivacyPolicyScreen9195457Navigator },
+UserProfile4195462: { screen: UserProfile4195462Navigator },
+    
     /** new navigators can be added here */
     SplashScreen: {
       screen: SplashScreen
