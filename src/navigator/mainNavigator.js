@@ -14,7 +14,6 @@ import LoginAndSignup3195463Navigator from '../features/LoginAndSignup3195463/na
 import Articles5195461Navigator from "../features/Articles5195461/navigator";
 import TermsAndConditions8195458Navigator from '../features/TermsAndConditions8195458/navigator';
 import PrivacyPolicyScreen9195457Navigator from '../features/PrivacyPolicyScreen9195457/navigator';
-import Maps7195459Navigator from "../features/Maps7195459/navigator.js";
 
 /**
  * new navigators can be imported here
