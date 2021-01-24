@@ -4,8 +4,8 @@ import rootSaga from "./sagas";
 import customRootSaga from "./custom/sagas"
 import authRootSaga from "../features/LoginAndSignup3195463/auth/sagas";
 import authReducer from "../features/LoginAndSignup3195463/auth/reducers";
-import articlesReducer from "../features/<module_directory>/store/reducers";
-import articlesSagas from "../features/<module_directory>/store/sagas";
+import articlesReducer from "../features/Articles5195461/store/reducers";
+import articlesSagas from "../features/Articles5195461/store/sagas";
 import { userRootSaga, userReducer } from "../features/UserProfile4195462/store";
 import { combineReducers, createStore, applyMiddleware, compose } from "redux";
 import createSagaMiddleware from "redux-saga";
