@@ -14,7 +14,6 @@ import LoginAndSignup3195463Navigator from '../features/LoginAndSignup3195463/na
 import Articles5195461Navigator from "../features/Articles5195461/navigator";
 import TermsAndConditions8195458Navigator from '../features/TermsAndConditions8195458/navigator';
 import PrivacyPolicyScreen9195457Navigator from '../features/PrivacyPolicyScreen9195457/navigator';
-import UserProfile4195462Navigator from "../features/UserProfile4195462/navigator";
 import Maps7195459Navigator from "../features/Maps7195459/navigator.js";
 
 /**
@@ -34,8 +33,6 @@ LoginAndSignup3195463: { screen: LoginAndSignup3195463Navigator },
 Articles5195461: { screen: Articles5195461Navigator },
 TermsAndConditions8195458: { screen: TermsAndConditions8195458Navigator
 PrivacyPolicyScreen9195457: { screen: PrivacyPolicyScreen9195457Navigator },
-UserProfile4195462: { screen: UserProfile4195462Navigator },
-Maps7195459: { screen: Maps7195459Navigator },
     /** new navigators can be added here */
     SplashScreen: {
       screen: SplashScreen
