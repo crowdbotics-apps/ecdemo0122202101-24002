@@ -25,12 +25,12 @@ const AppNavigator = {
 UserProfile4195462: { screen: UserProfile4195462Navigator },
 Maps7195459: { screen: Maps7195459Navigator },
     
-//onboarding, login, terms, privacy, articles
+//onboarding, splash, login, terms, privacy, articles
 Onboarding2195464: { screen: Onboarding2195464Navigator },
 SplashScreen1195465: { screen: SplashScreen1195465Navigator },
 LoginAndSignup3195463: { screen: LoginAndSignup3195463Navigator },
 Articles5195461: { screen: Articles5195461Navigator },
-TermsAndConditions8195458: { screen: TermsAndConditions8195458Navigator
+TermsAndConditions8195458: { screen: TermsAndConditions8195458Navigator },
 PrivacyPolicyScreen9195457: { screen: PrivacyPolicyScreen9195457Navigator },
     /** new navigators can be added here */
     SplashScreen: {
